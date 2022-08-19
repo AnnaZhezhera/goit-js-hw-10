@@ -18,3 +18,42 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+p {
+  font-size: 18px;
+  margin-top: 0;
+  margin: 10px;
+  margin-left: 0;
+}
+
+.country-name {
+  display: inline-block;
+  font-size: 32px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.languages {
+  padding-left: 0;
+  margin: 0;
+  font-size: 18px;
+}
+
+.languages li {
+  display: inline;
+  list-style: none;
+}
+
+.country-list {
+  padding-left: 0;
+  margin: 0;
+}
+.search-item {
+  list-style: none;
+}
+
+.country-name-search {
+  display: inline-block;
+  font-size: 24px;
+  line-height: 50px;
+}
