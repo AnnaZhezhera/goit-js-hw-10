@@ -7,6 +7,7 @@ const countryListEl = document.querySelector('.country-list');
 const countryInfoEl = document.querySelector('.country-info');
 
 // app.set('view engine', 'hbs');
+//test
 
 fetchCountries('peru').then(data => console.log(data));
 
