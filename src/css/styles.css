@@ -26,6 +26,12 @@ p {
   margin-left: 0;
 }
 
+.flag {
+  display: inline-block;
+  height: 100%;
+  vertical-align: center;
+}
+
 .country-name {
   display: inline-block;
   font-size: 32px;
@@ -49,11 +55,18 @@ p {
   margin: 0;
 }
 .search-item {
+  display: block;
+  height: 50px;
   list-style: none;
+}
+
+.search-item img {
+  vertical-align: middle;
 }
 
 .country-name-search {
   display: inline-block;
   font-size: 24px;
-  line-height: 50px;
+  vertical-align: middle;
+  /* line-height: 50px; */
 }

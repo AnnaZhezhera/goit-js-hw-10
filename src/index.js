@@ -49,8 +49,6 @@ function onCountrySearchChange(event) {
       } else if (countries.length > 1) {
         const markupList = countryListTpl(countries);
         countryListEl.innerHTML = markupList;
-        const markup = countryCardTpl(countries);
-        countryInfoEl.innerHTML = markup;
       } else if (countries.length === 1) {
         const markup = countryCardTpl(countries);
         countryInfoEl.innerHTML = markup;
